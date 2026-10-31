@@ -1,0 +1,4 @@
+sample,fastq_1,fastq_2
+sample1,https://github.com/glebus-sasha/nextflow-course-template/raw/refs/heads/main/data/sample1_R1.fastq.gz,https://github.com/glebus-sasha/nextflow-course-template/raw/refs/heads/main/data/sample1_R2.fastq.gz
+sample2,https://github.com/glebus-sasha/nextflow-course-template/raw/refs/heads/main/data/sample2_R1.fastq.gz,https://github.com/glebus-sasha/nextflow-course-template/raw/refs/heads/main/data/sample2_R2.fastq.gz
+sample3,https://github.com/glebus-sasha/nextflow-course-template/raw/refs/heads/main/data/sample3_R1.fastq.gz
