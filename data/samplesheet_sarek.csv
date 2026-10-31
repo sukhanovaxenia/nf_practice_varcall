@@ -1,0 +1,7 @@
+patient,sample,lane,fastq_1,fastq_2
+patient1,sample1,lane1,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample1_R1.fastq.gz,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample1_R2.fastq.gz
+patient2,sample2,lane2,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample2_R1.fastq.gz,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample2_R2.fastq.gz
+patient3,sample3,lane3,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample3_R1.fastq.gz,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample3_R2.fastq.gz
+patient4,sample4,lane4,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample4_R1.fastq.gz,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample4_R2.fastq.gz
+patient5,sample5,lane5,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample5_R1.fastq.gz,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample5_R2.fastq.gz
+patient6,sample6,lane6,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample6_R1.fastq.gz,https://raw.githubusercontent.com/glebus-sasha/nextflow-course/refs/heads/main/data/sample6_R2.fastq.gz
