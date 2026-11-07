@@ -1,6 +1,7 @@
 process report {
     conda 'bioconda::multiqc'
-    container 'staphb/multiqc:latest'
+    container 'multiqc:arm64'
+    containerOptions '--entrypoint ""'
     publishDir 'results/report', mode: 'copy'
 
     input:

@@ -1,6 +1,7 @@
 process varcall {
     conda 'bioconda::bcftools'
-    container 'staphb/bcftools:latest'
+    container 'bcftools:arm64'
+    containerOptions '--entrypoint ""'
     publishDir 'results/varcall'
     tag "$sid"
 
@@ -14,6 +15,8 @@ process varcall {
 
     script:
     """
+    set -o pipefail 
+    
     bcftools mpileup -Ou -f $reference $bamFile | bcftools call -mv > ${sid}.vcf
     """
 

@@ -1,7 +1,7 @@
 process refindex {
     conda 'bioconda::bwa bioconda::samtools'
     container 'glebusasha/bwa_samtools'
-    publishDir 'results/refindex'
+    publishDir 'results/reference'
     tag "$reference"
 
     input:
